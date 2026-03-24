@@ -20,7 +20,8 @@ app.use('/realtime', realtimeServer);
 app.use('/history', historyServer);
 app.use('/', staticServer);
 
-var port = process.env.PORT || 8080
+var port = process.env.PORT || 8081
+
 
 app.listen(port, function () {
     console.log('Open MCT hosted at http://localhost:' + port);
